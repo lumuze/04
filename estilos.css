@@ -1,0 +1,37 @@
+picture {
+    display: flex;
+    justify-content: center;
+}
+
+picture img {
+    width: 30%;
+
+}
+body {
+    background-color: #882d61;
+}
+h1 {
+    text-align: center;
+    color: #CD88AF;
+}
+#opciones {
+    text-align: center;
+    list-style: none;
+}
+#opciones li {
+    display: inline-block;
+    padding: 10px
+}
+
+.boton {
+    text-decoration: none;
+    color: #661141;
+    border: 2px solid #4A6B8A;
+    padding: 5px; 
+    border-radius: 5px;
+    display: inline-block;
+}
+.boton:hover {
+    background-color: #143153;
+    color:black;
+}
